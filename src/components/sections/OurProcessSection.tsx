@@ -46,11 +46,11 @@ const OurProcessSection = () => {
                 </div>
 
                 <AccordionItem
-                  value={item.title}
+                  value={item.trigger}
                   className={`w-full border p-xl rounded-2xl bg-neutral-50 border-[#DEDCDC] dark:bg-neutral-950 dark:border-neutral-900 transition-transform duration-300 hover:scale-102 cursor-pointer ${isEven ? 'lg:col-start-1 lg:mr-auto' : 'lg:col-start-2 lg:ml-auto'}`}
                 >
                   <AccordionTrigger className='font-bold text-md lg:text-xl cursor-pointer'>
-                    {item.title}
+                    {item.trigger}
                   </AccordionTrigger>
                   <AccordionContent className='font-medium text-sm text-neutral-500 lg:text-md'>
                     {item.content}

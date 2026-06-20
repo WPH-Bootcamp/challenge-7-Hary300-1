@@ -14,7 +14,8 @@ export interface Stats {
 
 export interface OurProcess {
   id: number;
-  title: string;
+  value: string;
+  trigger: string;
   content: string;
 }
 
@@ -47,4 +48,11 @@ export interface Testimony {
     role: string;
     avatar: string;
   };
+}
+
+export interface Faq {
+  id: number;
+  value: string;
+  trigger: string;
+  content: string;
 }
