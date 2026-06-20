@@ -17,7 +17,7 @@ const ServicesSection = () => {
             return (
               <div
                 key={item.id}
-                className='relative flex flex-col gap-2xl rounded-2xl bg-neutral-50 dark:bg-neutral-950 border border-[#DEDCDC] dark:border-neutral-900 px-2xl pt-6xl pb-2xl lg:pt-7xl'
+                className='relative flex flex-col gap-2xl rounded-2xl bg-neutral-50 dark:bg-neutral-950 border border-[#DEDCDC] dark:border-neutral-900 px-2xl pt-6xl pb-2xl lg:pt-7xl transition-transform duration-300 hover:scale-105 cursor-pointer'
               >
                 <p className='font-bold text-md lg:text-xl'>{item.title}</p>
                 <p className='font-medium text-neutral-500 text-sm lg:text-md'>
