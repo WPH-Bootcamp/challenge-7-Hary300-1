@@ -24,7 +24,10 @@ function AccordionItem({
   return (
     <AccordionPrimitive.Item
       data-slot='accordion-item'
-      className={cn('not-last:border-b border-[#DFDFDF]', className)}
+      className={cn(
+        'not-last:border-b border-[#DFDFDF] dark:border-neutral-800',
+        className
+      )}
       {...props}
     />
   );

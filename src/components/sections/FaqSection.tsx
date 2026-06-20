@@ -22,7 +22,7 @@ const FaqSection = () => {
           align='left'
           variant='faq'
         />
-        <div className='h-px w-full bg-[#DFDFDF] -mb-5' />
+        <div className='h-px w-full bg-[#DFDFDF] dark:bg-neutral-800 -mb-5' />
         <div className='flex flex-col gap-3xl lg:flex-row lg:gap-18.25 lg:justify-between lg:items-start'>
           <Accordion type='single' collapsible defaultValue='item-1'>
             {faq.map((item) => (
