@@ -41,7 +41,7 @@ const TestimonialsSection = () => {
   return (
     <section
       id='testimonials'
-      className='px-xl lg:px-0 max-w-360 m-auto relative py-5xl lg:py-8xl flex flex-col gap-6xl lg:gap-8xl overflow-hidden'
+      className='px-xl lg:px-0 max-w-360 m-auto relative py-5xl lg:py-8xl flex flex-col gap-6xl lg:gap-8xl overflow-x-hidden'
     >
       <SectionHeader title={headerText.title} subtitle={headerText.subtitle} />
       <Carousel setApi={setApi}>
